@@ -1,7 +1,5 @@
 * {
     box-sizing: border-box;
-    display: flex;
-    justify-content: center;
 }
 
 body {
@@ -1113,35 +1111,33 @@ body {
     top: 28.05%;
     bottom: 67.07%;
 }
-
 .lr1 {
     position: absolute;
-    left: 0%;
-    top: 28.05%;
-    bottom: 67.07%;
+left: 0%;
+top: 28.05%;
+bottom: 67.07%;
 
-    font-family: 'Gilroy-light';
-    font-size: 14px;
-    line-height: 140.62%;
-    /* identical to box height, or 20px */
+font-family: 'Gilroy-light';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
 
 
-    color: #000000;
+color: #000000;
 
 }
-
 .lr2 {
     position: absolute;
-    left: 100%;
-    top: 28.05%;
-    bottom: 67.07%;
+left: 100%;
+top: 28.05%;
+bottom: 67.07%;
 
-    font-family: 'Gilroy-light';
-    font-size: 14px;
-    line-height: 140.62%;
-    /* identical to box height, or 20px */
+font-family: 'Gilroy-light';
+font-size: 14px;
+line-height: 140.62%;
+/* identical to box height, or 20px */
 
 
-    color: #000000;
+color: #000000;
 
 }
