@@ -3,14 +3,12 @@
 }
 
 body {
-    width: 1440px;
     height: 3913px;
 }
 
 .navigationBar {
     position: absolute;
-    width: 1440px;
-    height: 116px;
+    width: 100%;
 
     left: 0%;
     top: 0%;
@@ -47,15 +45,15 @@ body {
     right: 0%;
     top: 23.33%;
     bottom: 23.33%;
-    height: 61.86666488647461px;
-    width: 1440px;
+    height: 61.8672px;
+    width: 100%;
 
 }
 
 
 .links {
     position: absolute;
-    width: 331px;
+    width: 25%;
     height: 21px;
     left: 38.5%;
     top: 33%;
@@ -66,7 +64,6 @@ body {
 
     position: absolute;
     left: 0%;
-    width: 49px;
 
     font-family: 'Gilroy-light';
     font-size: 18px;
@@ -80,7 +77,7 @@ body {
 .link2 {
     position: absolute;
     left: 24.03%;
-    width: 75px;
+
 
 
 
@@ -97,7 +94,6 @@ body {
 .link3 {
     position: absolute;
     left: 56.39%;
-    width: 68px;
 
     font-family: 'Gilroy-light';
     font-size: 18px;
@@ -111,7 +107,6 @@ body {
 .link4 {
     position: absolute;
     left: 86%;
-    width: 46px;
 
 
 
@@ -126,8 +121,8 @@ body {
 
 .buttonSecondary {
     position: absolute;
-    height: 43.666664123535156px;
-    width: 150px;
+    height: 43.6672px;
+    width: 10.4%;
     left: 87%;
     top: 35%;
 
@@ -146,8 +141,8 @@ body {
 
 .buttonSecondaryText {
     position: absolute;
-    height: 38px;
-    width: 140px;
+    height: 100%;
+    width: 100%;
     font-family: 'Gilroy-light';
     font-size: 18px;
     line-height: 22px;
@@ -167,15 +162,15 @@ body {
     position: absolute;
     top: 116px;
     left: 0px;
-    width: 1440px;
-    height: 700px;
-
+    width: 100%;
+    height: 100%;
     background: #F1F1F2;
 }
 
 .bgi {
     position: absolute;
     left: 50.00%;
+    width: 50%;
     right: 0%;
     top: 0%;
     bottom: 0%;
@@ -185,13 +180,12 @@ body {
 
 .title {
     position: absolute;
-    width: 433px;
-    height: 206px;
-    left: 162px;
-    top: 154px;
+    width: 30%;
+    left: 10.5%;
+    top: 18%;
 
     font-family: 'Gilroy-bold';
-    font-size: 56px;
+    font-size: 3.5rem;
     line-height: 69px;
 
     color: #000000;
@@ -199,13 +193,13 @@ body {
 
 .subtitle {
     position: absolute;
-    width: 422px;
-    height: 57px;
-    left: 162px;
-    top: 396px;
+    width: 30%;
+    height: 10%;
+    left: 10.5%;
+    top: 55%;
 
     font-family: 'Gilroy-light';
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 140.62%;
     /* or 28px */
 
@@ -215,15 +209,16 @@ body {
 
 .buttonPrimary {
     position: absolute;
-    width: 200px;
+    width: 13%;
     height: 60px;
-    left: 162px;
-    top: 505px;
+    left: 10.5%;
+    top: 75%;
 }
 
 .buttonPrimaryBG {
     position: absolute;
     left: 0%;
+
     right: 0%;
     top: 0%;
     bottom: 0%;
@@ -235,7 +230,7 @@ body {
 .buttonPrimaryText {
     position: absolute;
     height: 22px;
-    left: 33px;
+    left: 10.5%;
     right: 24px;
     top: 20px;
 
@@ -254,7 +249,7 @@ body {
 
 .FeatureSplitRight {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 600px;
     left: 0px;
     top: 816px;
@@ -266,16 +261,17 @@ body {
     right: 0%;
     top: 0%;
     bottom: 0%;
-
+    width: 100%;
     background: #F1F1F2;
 }
 
 .FeatureSplitRightImg {
     position: absolute;
     right: 50%;
+    width: 50%;
     top: -0.4%;
     left: -0.13%;
-
+    height: 100%;
     background: url(.jpg), #000000;
     transform: rotate(0.3deg);
 }
@@ -299,9 +295,9 @@ body {
 .FeatureSplitRightSubTitle {
     position: absolute;
     left: 57.85%;
-    right: 11.53%;
     top: 45.67%;
     bottom: 33.17%;
+    width: 35%;
 
     font-family: 'Gilroy-light';
     font-size: 20px;
@@ -316,10 +312,9 @@ body {
 .buttonSecondary2 {
     position: absolute;
     left: 57.85%;
-    right: 28.26%;
     top: 72.67%;
     bottom: 17.33%;
-
+    width: 20%;
 }
 
 .buttonSecondaryBG2 {
@@ -329,7 +324,7 @@ body {
     right: 0%;
     top: 35px;
     bottom: 0%;
-    width: 200px;
+    width: 70%;
     border: 1px solid #F7941E;
     border-radius: 5px;
     height: 60px;
@@ -339,9 +334,8 @@ body {
     position: absolute;
     height: 25px;
     left: 47px;
-    right: 46px;
     top: 29%;
-    width: 200px;
+    width: 70%;
     font-family: 'Gilroy-Light';
     font-size: 18px;
     line-height: 134.77%;
@@ -358,8 +352,7 @@ body {
 
 .postsTally {
     position: absolute;
-    width: 1440px;
-    height: 820px;
+    width: 100%;
     left: 0px;
     top: 1417px;
 
@@ -377,7 +370,7 @@ body {
 
 .giftfa {
     position: absolute;
-    width: 422px;
+    width: 30%;
     height: 39px;
     left: calc(50% - 422px/2);
     top: 96px;
@@ -394,9 +387,9 @@ body {
 
 .tow {
     position: absolute;
-    width: 454px;
+    width: 50%;
     height: 25px;
-    left: calc(50% - 454px/2);
+    left: 25%;
     top: 158px;
 
     font-family: 'Gilroy';
@@ -411,27 +404,27 @@ body {
 
 .cardBlog1 {
     position: absolute;
-    width: 270px;
+    width: 18%;
     height: 436px;
-    left: calc(50% - 270px/2 + 450px);
+    left: 71.5%;
     top: 247px;
 
 }
 
 .cardBlog2 {
     position: absolute;
-    width: 270px;
+    width: 18%;
     height: 436px;
-    left: calc(50% - 270px/2 + 150px);
+    left: 51%;
     top: 247px;
 
 }
 
 .cardBlog3 {
     position: absolute;
-    width: 270px;
+    width: 18%;
     height: 436px;
-    left: calc(50% - 270px/2 - 150px);
+    left: 30.5%;
     top: 247px;
 
 
@@ -439,9 +432,9 @@ body {
 
 .cardBlog4 {
     position: absolute;
-    width: 270px;
+    width: 18%;
     height: 436px;
-    left: calc(50% - 270px/2 - 450px);
+    left: 10%;
     top: 247px;
     filter: drop-shadow(-12px 10px 15px rgba(0, 0, 0, 0.29));
 
@@ -449,11 +442,11 @@ body {
 
 .cardBlogImg {
     position: absolute;
-    height: 270px;
+    height: 62%;
     left: 0%;
     right: 0%;
     top: 0px;
-
+    width: 100%;
     background: url(.jpg), #000000;
 
 }
@@ -461,7 +454,7 @@ body {
 
 .content {
     position: absolute;
-    width: 270px;
+    width: 100%;
     height: 166px;
     left: 0px;
     top: 270px;
@@ -519,7 +512,7 @@ body {
 
 .ctasection {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 240px;
     left: 0px;
     top: 2237px;
@@ -537,8 +530,8 @@ body {
 }
 
 .ctagroup {
-    height: 90px;
-    width: 325px;
+    height: 30%;
+    width: 20%;
     left: 235px;
     top: 81px;
 
@@ -666,7 +659,7 @@ body {
 
 .pbt {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 860px;
     left: 0px;
     top: 2643px;
@@ -674,7 +667,7 @@ body {
 
 .pbtGroup {
     position: absolute;
-    width: 507px;
+    width: 40%;
     height: 87px;
     left: 467px;
     top: -78px;
@@ -699,7 +692,7 @@ body {
 .pbtGroupSubTitle {
     position: absolute;
     height: 25px;
-    width: 607px;
+    width: 100%;
     left: 0px;
     top: 60px;
 
@@ -715,8 +708,8 @@ body {
 
 .bcfbg {
     position: absolute;
-    height: 370px;
-    width: 1170px;
+    height: 43%;
+    width: 80%;
     left: 135px;
     top: 80px;
     border-radius: 0px;
@@ -727,8 +720,8 @@ body {
 
 .bcfimg {
     position: absolute;
-    height: 370px;
-    width: 400px;
+    height: 100%;
+    width: 1fr;
 
     border-radius: 0px;
 
@@ -739,8 +732,8 @@ body {
 .bcfauthor {
     position: absolute;
     height: 20px;
-    width: 150px;
-    left: 483px;
+    width: 50%;
+    left: 39.5%;
     top: 43px;
 
 
@@ -757,8 +750,8 @@ body {
 .bcftitle {
     position: absolute;
     height: 125px;
-    width: 492px;
-    left: 483px;
+    width: 40%;
+    left: 39.5%;
     top: 90px;
 
 
@@ -772,8 +765,8 @@ body {
 .bcflink {
     position: absolute;
     height: 26px;
-    width: 190px;
-    left: 483px;
+    width: 40%;
+    left: 39.5%;
     top: 295px;
 
 
@@ -792,7 +785,7 @@ body {
     right: 51.04%;
     top: 56.98%;
     bottom: 9.3%;
-
+    width: 39%;
 }
 
 .bc2 {
@@ -801,6 +794,7 @@ body {
     right: 9.38%;
     top: 56.98%;
     bottom: 9.3%;
+    width: 39%;
 
 }
 
@@ -810,7 +804,7 @@ body {
     right: 51.04%;
     top: 56.98%;
     bottom: 9.3%;
-
+    width: 39%;
     background: #FFFFFF;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
 
@@ -822,14 +816,14 @@ body {
     right: 9.38%;
     top: 56.98%;
     bottom: 9.3%;
-
+    width: 39%;
     background: #FFFFFF;
 }
 
 .bgtitle1 {
     position: absolute;
     height: 68px;
-    width: 474px;
+    width: 100%;
     left: 80px;
     top: 50px;
 
@@ -847,7 +841,7 @@ body {
 .bgtitle2 {
     position: absolute;
     height: 68px;
-    width: 474px;
+    width: 90%;
     left: 40px;
     top: 50px;
 
@@ -865,7 +859,7 @@ body {
 .bgsummary1 {
     position: absolute;
     height: 72px;
-    width: 474px;
+    width: 82%;
     left: 80px;
     top: 150px;
 
@@ -883,7 +877,7 @@ body {
 .bgsummary2 {
     position: absolute;
     height: 72px;
-    width: 474px;
+    width: 84%;
     left: 40px;
     top: 150px;
 
@@ -901,9 +895,9 @@ body {
 .bglink1 {
     position: absolute;
     height: 72px;
-    width: 474px;
+    width: 30%;
     left: 80px;
-    top: 235px;
+    top: 85%;
 
     font-family: 'Gilroy-Light';
     font-size: 14px;
@@ -918,9 +912,9 @@ body {
 .bglink2 {
     position: absolute;
     height: 72px;
-    width: 474px;
+    width: 30%;
     left: 40px;
-    top: 235px;
+    top: 85%;
 
     font-family: 'Gilroy-Light';
     font-size: 14px;
@@ -934,8 +928,8 @@ body {
 
 .ft {
     position: absolute;
-    width: 1440px;
-    height: 410px;
+    width: 100%;
+    height: 60%;
     left: 0px;
     top: 3502px;
 
@@ -943,16 +937,16 @@ body {
 
 .frame {
     position: absolute;
-    width: 296px;
+    width: 100%;
     height: 40px;
-    left: 572px;
-    top: 243px;
+    left: 41.7%;
+    top: 56%;
 
 }
 
 .image1 {
     position: absolute;
-    width: 40px;
+    width: 500px;
     height: 40px;
     left: 0px;
     top: 0px;
@@ -1002,7 +996,7 @@ body {
 
 .copyright {
     position: absolute;
-    left: 42.92%;
+    left: 43.32%;
     top: 86.59%;
     bottom: 8.54%;
 
@@ -1019,7 +1013,7 @@ body {
 
 .pt {
     position: absolute;
-    left: 50.42%;
+    left: 52.42%;
     top: 86.59%;
     bottom: 8.54%;
 
@@ -1037,15 +1031,15 @@ body {
     position: absolute;
     width: 41px;
     height: 39px;
-    left: 706px;
-    top: 106px;
+    left: 49%;
+    top: 30%;
 }
 
 .glolog {
     position: absolute;
     left: 49.03%;
     right: 48.12%;
-    top: 65%;
+    top: 0%;
     bottom: 64.63%;
 
     font-family: 'Homemade Apple';
@@ -1111,33 +1105,35 @@ body {
     top: 28.05%;
     bottom: 67.07%;
 }
+
 .lr1 {
     position: absolute;
-left: 0%;
-top: 28.05%;
-bottom: 67.07%;
+    left: 0%;
+    top: 28.05%;
+    bottom: 67.07%;
 
-font-family: 'Gilroy-light';
-font-size: 14px;
-line-height: 140.62%;
-/* identical to box height, or 20px */
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
 
 
-color: #000000;
+    color: #000000;
 
 }
+
 .lr2 {
     position: absolute;
-left: 100%;
-top: 28.05%;
-bottom: 67.07%;
+    left: 100%;
+    top: 28.05%;
+    bottom: 67.07%;
 
-font-family: 'Gilroy-light';
-font-size: 14px;
-line-height: 140.62%;
-/* identical to box height, or 20px */
+    font-family: 'Gilroy-light';
+    font-size: 14px;
+    line-height: 140.62%;
+    /* identical to box height, or 20px */
 
 
-color: #000000;
+    color: #000000;
 
 }
